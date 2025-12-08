@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { LiaGamepadSolid } from "react-icons/lia";
 // import logoImg from "public/logo.svg";
+import { LiaGamepadSolid } from "react-icons/lia";
 
 export function Header() {
   return (
