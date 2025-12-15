@@ -10,7 +10,8 @@ interface PageGameProps {
   params: Promise<{ id: string }>;
 }
 
-export async function generatedMetadata({
+//gera o metadadata dinâmico para cada jogo
+export async function generateMetadata({
   params,
 }: PageGameProps): Promise<Metadata> {
   const { id } = await params;
